@@ -1,0 +1,28 @@
+body {
+	margin: 20px;
+}
+
+.container, .item, .item2{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	
+}
+
+.container {
+
+	background-color: #995db5;
+}
+
+.item {
+	display: flex;
+    list-style: none;
+	background-color: #e99b3c;
+
+}
+
+.item2 {
+    margin-left: auto;
+	background-color: rgb(114, 224, 17);
+}

@@ -1,0 +1,54 @@
+body {
+    background: #E5E5E5;
+}
+
+
+
+.flexbox-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 22vh  70vh  10vh;
+    grid-gap:5px;
+    grid-template-areas:"flexbox-item-1 flexbox-item-1"
+                        "flexbox-item-3  flexbox-item-2"  
+                        "flexbox-item-4 flexbox-item-4"
+ 
+}
+
+.flexbox-item {  
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,;
+    color: black;
+}
+
+.flexbox-item-1 {
+height: 70px;
+background-color:#FFFFFF;    
+grid-area:flexbox-item-1;
+ 
+
+}
+
+.flexbox-item-2 {
+background-color:#FFFFFF;   
+grid-area:flexbox-item-3  flexbox-item-2;
+
+
+    
+}
+
+.flexbox-item-3 {
+background-color:#FFFFFF;    
+
+}
+        
+.flexbox-item-4 {
+background-color:#FFFFFF;
+grid-area:flexbox-item-4;
+         
+    }
+             
+        
+                

@@ -1,0 +1,40 @@
+body {
+    background-color: #882727;
+}
+
+.container {
+
+    display: flex;
+    background-color: #22bd94;
+    margin: 80px auto 80px;
+    max-width: 500;
+    font-family: sans-serif;
+    flex-wrap; wrap;
+        font-family: 'Poppins', sans-serif;
+   
+}
+
+.grow_1 {
+   flex-grow: 1
+}
+
+.grow_2 {
+    flex-grow: 1
+ }
+
+.container div {
+    background: #028082; 
+    height: auto;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row div {       
+    margin: 5px 5px;
+    width: auto;
+    
+}

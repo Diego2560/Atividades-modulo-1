@@ -1,0 +1,42 @@
+body {
+    
+    background-color: #FF7979;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.container {
+    margin-left: auto;
+	border-radius: 8px;
+    width: 540px;
+	padding: 8px;
+	background-color: #ffffff;
+    
+}
+
+.item1 {
+display: grid;
+background-color: yellow;
+
+}
+
+.item2 {
+    display: grid;    
+background-color: yellowgreen;
+}
+
+.item3 {
+    display: grid;    
+background: violet;
+}
+
+.item4 {
+    display: grid;
+background-color: tomato;
+}
+
+.item5 {
+font-size: 13px;
+font-family: 'Poppins', sans-serif;
+background-color: yellow;
+}

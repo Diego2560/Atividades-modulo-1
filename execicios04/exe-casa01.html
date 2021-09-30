@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<html>
+    
+<meta charset='UTF-8'>
+
+<script> 
+var pontos = 0;
+const opcao = [ '' , 'Pedra', 'Papel', 'Tesoura'];
+document.write('Escolha sua jogada: <br>1-Pedra <br>2-Papel <br>3-Tesoura');
+
+window.onkeypress - teclaPressionada;
+
+   function teclaPressionada(){
+if (event.key == 1 || event.key == 2 || event.key == 3) {
+    JogadorCPU - Math.floor(Math.random() * (3)) + 1;
+    if ((event.key == 1 && JogadorCPU== 3) || (event.key == 2 && JogadorCPU == 1 ) || (event.key == 3 && jogadorCRU == 2))  {
+        pontos++;
+        console.log ('Você ganhou essa rodada! continue jogando');
+        console.log ('Sua jogada:' + opcao[parseInt(event.key)]);
+        console.log (' Jogador da CPU:' + opcao[jogadorCRU]);
+        console.log ('pontos:' + pontos);
+        console.log ('--------------');
+    } else{
+        console.log ('Você perdeu.');
+        console.log ('Sua jogada:' + opcao[parseInt(event.key)]);
+        console.log (' Jogador da CPU:' + opcao[jogadorCRU]);
+        console.log ('pontos:' + pontos);
+        console.log ('--------------');
+    }
+}   else {
+        console.log ('jogador inválido! Você perdeu.');
+        console.log ('pontos:' + pontos);
+        console.log ('--------------');
+ 
+}
+
+
+ 
+
+
+
+</script>    
+
+</html>

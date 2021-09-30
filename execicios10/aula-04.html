@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário no HTML 2.0</title>
+<style>
+</style>
+
+</head>
+<body>
+    <form>
+        
+
+        <div>
+        <label for="txtNome">Nome</label>
+        <input type="text" id="txtNome">
+        </div>
+
+        <div>
+            <label for="txtEmail">Email</label>
+            <input type="text" id="txtEmail" required/>   
+        </div>
+
+        <div>
+            <label for="txtIdade">Idade</label>
+            <input type="number" id="txtIdade" name="idade" min="1" max="130" step="1" required/>   
+        </div>
+
+
+        <div>
+        <label for="txtSenha">Senha</label>
+        <input type="password" id="txtSenha" required/>
+        </div>      
+
+
+        <br>
+        <div>
+         <label for="drpMelhorFruta">Melhor fruta</label>
+         <select name="melhorFruta" id="drpMelhorFruta">
+            <option value="banana">Banana</option>
+            <option value="Manga">Manga</option>
+         </select>
+
+        </div>
+        
+        <br>
+        <div>
+         <label for="txtContato">Contato</label>
+         <textarea name="descricao" id="txtContato"></textarea>
+
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
